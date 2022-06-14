@@ -11,8 +11,3 @@ This program replicates Table 1, Table 2, and Figure 1 in Ball and Brown (PBFJ, 
 ``grid_run --grid_submit=batch --grid_mem=20G --grid_SGE_TASK_ID=1-1250 --grid_ncpus=8 ./IIIA_Distribution.py``
 
 Having obtained all the distributed computed results, ``IIIB_Aggregation.py`` can then be run to aggregate the resampling statistics.
-
-
-```python
-
-```
